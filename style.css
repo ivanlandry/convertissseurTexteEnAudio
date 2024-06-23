@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sergo UI',Tahoma,Geneva,Verdana,sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(45deg,#010758,#490d61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 2rem;
+}
+
+h1{
+    font-size: 3rem;
+    color: #fff;
+}
+h1 span{
+    background-color: #fb05e2;
+    padding: 0 2rem;
+    border-radius: 2rem;
+}
+
+textarea{
+    width: 100%;
+    height: 300px;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    color: #fff;
+    resize: none;
+    background-color: #403d84;
+    border-radius: 1rem;
+    margin: 3rem 0;
+    font-size: 1.5rem;
+}
+
+div.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    background-color: #fb05e2;
+    padding: 0.8rem 3rem;
+    font-size: 1.5rem;
+    color: #fff;
+    align-items: center;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+button img{
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+
+select{
+    flex: 1;
+    background-color: #403d84;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    padding: 0.8rem 3rem;
+    border-radius: 2rem;
+    margin-right: 5rem;
+    appearance: none;
+    background-image: url("dropdown.jpg");
+    background-size: 1.5rem;
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 1.5rem);
+    background-position-y: 20px;
+    color: white;
+}
